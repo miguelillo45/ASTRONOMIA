@@ -1,0 +1,54 @@
+
+
+
+body{
+    background-image: url(https://i.pinimg.com/736x/53/b8/04/53b8042b3c8978d5ae5a7caaa66de5b5--green-wallpaper-hd-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; ;
+    background-position-x:center ;
+    background-position-y:center ;
+    background-attachment:fixed ;}
+table  ,th ,td {
+    /*border-color: ;*/
+    /*border-style: ;*/
+    /*border-width: ;*/
+    border: 1px solid red;
+}
+
+
+table{
+    width: 90%;
+    /*text-align: center;*/
+    border-collapse: collapse; /*borde simple*/
+}
+
+td img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    height: 50px;
+    background-color: chartreuse;
+}
+
+td{
+    height:30px;
+    vertical-align: middle; /*bottom (inf) , top (sup)*/
+    padding: 15px;
+}
+
+/* th,td{ /*borde inferior
+    border-bottom:1px solid blue;
+} */
+
+/* cambie de color
+tr:hover{
+    background-color:aqua;
+} */
+
+color de cebra
+tr:nth-child(even){
+    background-color: aqua;
+}

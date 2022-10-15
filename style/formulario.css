@@ -1,0 +1,38 @@
+
+
+input[type=text]{
+    width: 50%;
+    margin: 8px 0;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    background-color: aqua;
+    
+}
+
+
+
+input[type=number]{
+    width: 30%;
+    margin: 4px 0;
+    padding: 12px 8px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+input[type=password]{
+
+    border-bottom: 2px solid blue;
+    border:none;
+}
+
+
+
+/*entradas enfocadas  --> focus */
+
+input[type=text]:focus{
+    background-color: palevioletred;
+
+
+}
+
+
